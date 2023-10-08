@@ -1,0 +1,39 @@
+<!-- link the css page -->
+<link rel="stylesheet" href="/css/home.css" />
+
+<!-- html code for show the project details -->
+<body class="over overflow-auto">
+  <div class="over34 p-5 ">
+    <div class="over4">
+      <%for(let project of projects){%>
+      <div class="card m-0 p-0 home-container over3"id="project-<%=project.id%>">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <strong>Name of the Project: </strong>
+          <p class="project-name"><%=project.name%></p>
+          <div>
+            <a href="/project/delete/?id=<%=project.id%>" class="delete-link">
+              <i class="fa-solid fa-trash fa-bounce" style="color: #e62933"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div>
+            <p class="card-title">
+              <strong>Description: </strong><%=project.description%>
+            </p>
+            <p class="card-text">
+              <strong>Author: </strong><%=project.author%>
+            </p>
+          </div>
+          <div class="open-project-btn">
+            <a href="/project/<%=project._id%>" class="btn btn-success front"
+              >Open Project</a
+            >
+          </div>
+        </div>
+      </div>
+      <%}%>
+    </div>
+  </div>
+  <script src="/js/delete_project.js"></script>
+</body>

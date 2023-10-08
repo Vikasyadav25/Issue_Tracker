@@ -1,0 +1,38 @@
+<!-- linked the Css file -->
+<link rel="stylesheet" href="/css/project_page.css" />
+
+<!-- html code for show  the project details in project page -->
+<div class="prject-prob">
+  <div class="project-prob1">
+    <div class="project-prob2 card container ">
+      <div class="card-body">
+        <div >
+            <img class="card__img" src="https://cdn.dribbble.com/users/2806742/screenshots/18384953/media/176b114c09d013945b8cc96e276b156b.png?resize=768x576&vertical=center" alt="Snowy Mountains">
+        </div>
+        <p class="card-title fw-bold mt-5">
+          Project Name: <span class="fw-normal" ><%=project.name%></span>
+        </p>
+        <p class="card-text fw-bold">
+            Project Details: <span class="fw-normal" ><%=project.description%></span>
+          <!-- Project Details: <%=project.description%> -->
+        </p>
+        <p class="card-text fw-bold">
+        Project Author: <span class="fw-normal" ><%=project.author%></span>
+        </p>
+        <button type="button" class="btn btn-warning" style="--bs-btn-padding-y: 0.25rem;--bs-btn-padding-x: 0.5rem;--bs-btn-font-size: 1rem;"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">
+        Filter Issues
+      </button>
+      <button type="button" class="btn btn-warning" style=" --bs-btn-padding-y: 0.25rem;--bs-btn-padding-x: 0.5rem;--bs-btn-font-size: 1rem;" data-bs-toggle="modal"
+        data-bs-target="#allIssue">Show All Issues</button>
+        <button type="button" class="btn btn-warning" style="--bs-btn-padding-y: 0.25rem;--bs-btn-padding-x: 0.5rem;
+          --bs-btn-font-size: 1rem;" data-bs-toggle="modal" data-bs-target="#searchmodal">Search Issues</button>
+  
+        <!-- <p class="card-text">Project Author: <%=project.author%></p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="project-prod23"><%-include('./partials/_issue_page')%></div>
+</div>

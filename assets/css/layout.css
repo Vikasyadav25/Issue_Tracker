@@ -1,0 +1,12 @@
+body {
+  background-repeat: no-repeat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.top{
+ 
+  height: 700px;
+  background-position: right;
+  background-size: contain,cover;
+ background-image: url("https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg?w=740&t=st=1696462001~exp=1696462601~hmac=7d2b0bb2c6cf7dcaf96e5ba2c1aa9e5812f5e2652bab88d3eb5bb860a7836e44");
+}
+

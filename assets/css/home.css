@@ -1,0 +1,40 @@
+
+.home-container{
+    background-color: #a2dff2;
+    color: #332701;
+    /* opacity: 0.7; */
+
+}
+.home-container:hover{
+    background-color: #4476bd;
+}
+.project-name{
+    margin: auto;
+    margin-left: 1%;
+}
+.front{
+    will-change: transform;
+    transition: transform 250ms;
+}
+.open-project-btn:hover .front{
+    transform: translateY(-6px);
+}
+.open-project-btn:active .front{
+    transform: translateY(-2px);
+}
+.over34{
+    width: 60vw;
+    height: 80vh;
+    overflow: auto;
+}
+.over34::-webkit-scrollbar{
+    display: none;
+  }
+.over3{
+    /* width: 600px; */
+}
+.over4{
+    padding: 0%;
+    width: 600px;
+    position: sticky;
+}
