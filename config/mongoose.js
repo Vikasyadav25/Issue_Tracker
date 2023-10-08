@@ -1,4 +1,3 @@
-connected to database
 const mongoose = require('mongoose');
 mongoose.connect(`mongodb+srv://vikassinghyadav6:ot9cfaHIUpqEab5U@cluster1.9oquvxy.mongodb.net/Issues_Tracker`);
 
