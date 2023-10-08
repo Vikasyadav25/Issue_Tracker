@@ -61,7 +61,7 @@ On click of reset stop the watch (if already started) and set timer as 0
 This application is built using NodeJs, MongoDB and Embedded Javascript Templating . This is a simple web-based on Issues Tracker that allows users to check Project and track issues.
 
 ## DEMO
-Hosted Link --- **https://tame-puce-newt-kilt.cyclic.app/** 
+Hosted Link --- https://tame-puce-newt-kilt.cyclic.app/
 
 
 Image -: 
