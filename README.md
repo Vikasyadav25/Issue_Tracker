@@ -20,7 +20,7 @@ This application is built using NodeJs, MongoDB and Embedded Javascript Templati
 2.2- Give a button to create a new Project (On creating a new project it should appear in the list).
 
 ### 3. Create Project Page
-On click of reset stop the watch (if already started) and set timer as 0
+On Click of create Issues
 <br>3.1- Accept the following fields to create a project.
     <br>&nbsp;&nbsp;&nbsp;&nbsp; 3.1.1- Name
     <br>&nbsp;&nbsp;&nbsp;&nbsp;3.1.2- Description
