@@ -15,7 +15,7 @@ This application is built using NodeJs, MongoDB and Embedded Javascript Templati
 ### 1. Build a neat UI
 
 ### 2. Home Page
-Stop timer once clicked on the stop button
+
 2.1- Show a list of projects.
 2.2- Give a button to create a new Project (On creating a new project it should appear in the list).
 
